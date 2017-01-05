@@ -1,0 +1,31 @@
+<html ng-app="app">
+  <head>
+    <title>angular1.6-components-ui-router</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"></link>    
+  </head>
+  
+  <body>
+    <div class="container">
+      <menu-component></menu-component>
+      <ui-view></ui-view>
+    </div>
+    
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+        
+    <script src="app.js"></script>
+    <script src="app/components/menu/menu.component.js"></script>
+    <script src="app/components/menu/menu.controller.js"></script>
+
+    <script src="app/components/home/home.component.js"></script>
+    <script src="app/components/home/home.controller.js"></script>
+    
+    <script src="app/components/about/about.component.js"></script>
+    <script src="app/components/about/about.controller.js"></script>
+    
+    <script src="app/components/people/people.component.js"></script>
+    <script src="app/components/people/people.controller.js"></script>
+    
+    <script src="app/services/people.json"></script>
+  </body> 
+</html>
